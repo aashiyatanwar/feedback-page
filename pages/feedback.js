@@ -8,7 +8,7 @@ const FeedbackPage = () => {
 
   return (
     <div className={styles.container}>
-      <h1>Feedback Page</h1>
+      <h1>Leave a review</h1>
       <FeedbackForm onSubmit={handleSubmitFeedback} />
     </div>
   );
